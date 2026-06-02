@@ -79,4 +79,4 @@ reflected by updating the "Last updated" date above.
 
 Questions about this policy? Contact:
 
-machina.app@gmail.com
+machinaservicetracker@gmail.com
