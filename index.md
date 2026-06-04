@@ -1,8 +1,8 @@
-# Privacy Policy for MACHINA
+# Privacy Policy for MACHINA: Know Your Ride
 
 **Last updated: June 3, 2026**
 
-MACHINA ("the app", "we", "us") is a motorcycle maintenance tracking app
+MACHINA: Know Your Ride ("MACHINA", "the app", "we", "us") is a motorcycle maintenance tracking app
 published by **Kim Roland Berame**. This policy explains what data the app handles and how.
 
 We designed MACHINA to be offline-first. Your data stays on your device.
@@ -89,6 +89,6 @@ reflected by updating the "Last updated" date above.
 
 ## Contact
 
-Questions about this policy? Contact:
+Any questions about this policy or MACHINA in general? Email us at:
 
 kimrolxmachina@gmail.com
