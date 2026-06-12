@@ -1,6 +1,6 @@
 # Privacy Policy for MACHINA: Know Your Ride
 
-**Last updated: June 3, 2026**
+**Last updated: June 13, 2026**
 
 MACHINA: Know Your Ride ("MACHINA", "the app", "we", "us") is a motorcycle maintenance tracking app
 published by **Kim Roland Berame**. This policy explains what data the app handles and how.
@@ -54,12 +54,21 @@ not receive personal data from these services.
 
 ## Photos
 
-You can optionally add a photo to a motorcycle. When you choose one, MACHINA
-requests access to your photo library only to let you pick that image. The
-selected photo is copied into the app's **local on-device storage** and shown
-in the app. It is **never uploaded, transmitted, or shared** — it stays on your
-device and is deleted when you remove the photo or uninstall the app. We do not
-access, scan, or read any other photos in your library.
+You can optionally add a photo to a motorcycle. To let you choose one, MACHINA
+requests access to your photo library. Depending on the access you grant:
+
+- **Full access** — MACHINA lists your photos inside the app so you can browse
+  and pick one. This listing happens entirely on your device; we never receive
+  it.
+- **Limited access** (iOS "Selected Photos") — MACHINA can only see the specific
+  photos you choose to share with it, and shows just those for selection. You
+  can change this selection at any time from the app or your device settings.
+
+In all cases, reading your library is done **only** to display photos for you to
+pick. We do not read photo location/EXIF metadata. The photo you select is
+copied into the app's **local on-device storage** and shown in the app. It is
+**never uploaded, transmitted, or shared** — it stays on your device and is
+deleted when you remove the photo or uninstall the app.
 
 ## Permissions
 
@@ -67,7 +76,8 @@ The app may request these device permissions:
 
 - **Notifications** — to deliver local maintenance reminders.
 - **Photo Library** — only when you choose to add a motorcycle photo, so you
-  can select an image. The chosen photo stays on your device.
+  can select an image. You may grant full or limited ("Selected Photos") access;
+  either way the chosen photo stays on your device.
 
 You may grant or revoke these permissions at any time in your device settings.
 
@@ -76,6 +86,10 @@ You may grant or revoke these permissions at any time in your device settings.
 We do not collect your name, email, contacts, location, advertising identifier,
 or usage analytics. Photos you add to a motorcycle stay on your device and are
 never collected or transmitted (see **Photos** above).
+
+MACHINA reads your device's **language and region setting** on-device only, to
+choose a sensible default currency for displaying maintenance costs. This setting
+is never collected or transmitted, and you can override the currency in the app.
 
 ## Children's Privacy
 
