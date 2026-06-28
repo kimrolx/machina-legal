@@ -1,6 +1,6 @@
 # Privacy Policy for MACHINA: Know Your Ride
 
-**Last updated: June 13, 2026**
+**Last updated: June 28, 2026**
 
 MACHINA: Know Your Ride ("MACHINA", "the app", "we", "us") is a motorcycle maintenance tracking app
 published by **Kim Roland Berame**. This policy explains what data the app handles and how.
@@ -17,9 +17,9 @@ We designed MACHINA to be offline-first. Your data stays on your device.
 
 ## Data You Create
 
-All content you enter — motorcycles, service logs, parts, mileage,
-maintenance schedules, notification preferences, and any motorcycle photo you
-add — is stored **locally on your device** in an on-device database. We have no
+All content you enter — motorcycles, service logs, parts, mileage, fuel
+logs, maintenance schedules, notification preferences, and any motorcycle
+photo you add — is stored **locally on your device** in an on-device database. We have no
 servers that receive, store, or process this data. We cannot see it.
 
 If you delete the app, this data is deleted with it. Back up anything you
@@ -70,6 +70,20 @@ copied into the app's **local on-device storage** and shown in the app. It is
 **never uploaded, transmitted, or shared** — it stays on your device and is
 deleted when you remove the photo or uninstall the app.
 
+### Saving share cards
+
+MACHINA can generate shareable image cards from your stats. If you choose to
+save one, the app requests permission to add photos to your library and writes
+the image there. The card is created on your device; we never receive or
+transmit it.
+
+## Sharing
+
+You can share a generated card or your stats using the standard iOS share
+sheet. What you share, and with whom, is entirely your choice and handled by
+iOS — MACHINA does not receive, store, or route shared content, and there is no
+MACHINA server involved.
+
 ## Permissions
 
 The app may request these device permissions:
@@ -78,6 +92,8 @@ The app may request these device permissions:
 - **Photo Library** — only when you choose to add a motorcycle photo, so you
   can select an image. You may grant full or limited ("Selected Photos") access;
   either way the chosen photo stays on your device.
+- **Photo Library (Save)** — only when you save a share card, to write the
+  image to your library.
 
 You may grant or revoke these permissions at any time in your device settings.
 
