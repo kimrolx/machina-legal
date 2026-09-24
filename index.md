@@ -1,6 +1,6 @@
 # Privacy Policy for MACHINA: Know Your Ride
 
-**Last updated: August 31, 2026**
+**Last updated: September 24, 2026**
 
 MACHINA: Know Your Ride ("MACHINA", "the app", "we", "us") is a motorcycle maintenance tracking app
 published by **Kim Roland Berame**. This policy explains what data the app handles and how.
@@ -18,14 +18,15 @@ See also our [Terms of Service](terms.html).
   explicitly export or back them up yourself.
 - Files you export — PDF service histories and JSON backups — are built on your
   device and handed to your system share sheet. We never receive them.
-- MACHINA sells nothing. There are no in-app purchases or subscriptions, and no
-  payment or purchase-checking service is active in this version.
+- MACHINA sells nothing. There are no in-app purchases or subscriptions, and the
+  app contains no payment or purchase-checking service.
 
 ## Data You Create
 
 All content you enter — motorcycles, service logs, parts, mileage, odometer
-readings, fuel logs, maintenance schedules, notification preferences, and any
-motorcycle photo you add — is stored **locally on your device** in an on-device
+readings, fuel logs, pre-ride checks, milestones, maintenance schedules,
+notification preferences, any motorcycle photo you add, and any photo you attach
+to a service or fuel log — is stored **locally on your device** in an on-device
 database. We have no servers that receive, store, or process this data. We
 cannot see it.
 
@@ -43,7 +44,8 @@ We do not upload them, receive them, or have any way to read them.
 
 The exported PDF contains what the app shows on screen: your motorcycle's make,
 model, engine size, odometer, its photo if you added one, your service entries
-(dates, parts, notes, costs, shop names), and your fuel and cost figures. It is
+(dates, parts, notes, costs, shop names, and any photo attached to them), and your
+fuel and cost figures. It is
 a document generated from data you entered — it is not a certified or verified
 service record.
 
@@ -51,9 +53,8 @@ service record.
 
 The backup is a single JSON file containing **everything** in your on-device
 database: motorcycles, service logs, log items, custom parts, part overrides and
-overdue anchors, fuel logs, odometer logs, your currency setting, and every
-motorcycle photo embedded in the file. Purchase/entitlement status is
-deliberately excluded.
+overdue anchors, fuel logs, odometer logs, milestones, pre-ride check records,
+your currency setting, and every motorcycle and log photo embedded in the file.
 
 Important: the backup file is **not encrypted and not password-protected**. Once
 it leaves the app it is an ordinary file. Treat it as sensitive as the records
@@ -74,24 +75,15 @@ file you choose**. It does not browse, scan, or index your storage, and it needs
 no standing file-access permission. Restoring **replaces** the data currently in
 the app.
 
-## Purchases and entitlement checks
+## Purchases
 
-**MACHINA currently sells nothing.** There are no in-app purchases, no
-subscriptions, and no paywall. No payment of any kind passes through us or
-through any third party.
+**MACHINA sells nothing.** There are no in-app purchases, no subscriptions, and
+no paywall. No payment of any kind passes through us or through any third party,
+and the app contains no purchase-checking service.
 
-The app ships with the **RevenueCat** purchase-checking SDK as groundwork for
-paid features we may introduce later, but it is **switched off**: it is never
-started, contacts no servers, and sends nothing about you or your device
-anywhere. Nothing about purchases leaves your phone in this version.
-
-If we do introduce paid features, they will be sold and billed by **Apple**
-through the App Store — we would never see or handle your payment details, card
-number, or billing address. Checking what you are entitled to would then involve
-RevenueCat receiving an anonymous, randomly generated ID and basic technical
-details about your device, never your name, email, or maintenance data. **We will
-update this policy before that happens.** RevenueCat's own privacy policy:
-https://www.revenuecat.com/privacy
+If we introduce paid features in the future, they will be sold and billed by
+**Apple** through the App Store — we would never see or handle your payment
+details. **We will update this policy before that happens.**
 
 ## Notifications
 
@@ -119,11 +111,8 @@ https://expo.dev/privacy
 
 In addition:
 
-- **RevenueCat** — bundled but **not active** in this version, as described under
-  **Purchases and entitlement checks** above. It transmits nothing today. Privacy
-  policy: https://www.revenuecat.com/privacy
 - **Apple** — receives your device's IP address when the app checks the App Store
-  for a newer version, and would process any purchase you make. If MACHINA asks
+  for a newer version. If MACHINA asks
   you to rate the app, that prompt is presented and handled entirely by iOS; we
   are not told whether you rated it or what rating you gave. Privacy policy:
   https://www.apple.com/legal/privacy/
@@ -132,6 +121,8 @@ We do not control and are not responsible for these services' data practices.
 We do not receive personal data from them.
 
 ## Photos
+
+### Motorcycle photos
 
 You can optionally add a photo to a motorcycle. To let you choose one, MACHINA
 requests access to your photo library. Depending on the access you grant:
@@ -149,9 +140,25 @@ copied into the app's **local on-device storage** and shown in the app. It is
 **never uploaded, transmitted, or shared** — it stays on your device and is
 deleted when you remove the photo or uninstall the app.
 
-A motorcycle photo is included in a service history PDF and embedded in a data
-backup, because both are copies of your own records. Those files go only where
-you send them (see **Exports and Backups**).
+### Log photos
+
+You can optionally attach a photo to a service or fuel log — a receipt, a pump
+display, or a part. You can take it with your camera or choose one through your
+system's photo picker, which shares only the photo you pick and needs no
+standing library access. MACHINA does not save camera photos to your photo
+library. The photo is resized and re-saved into the app's **local on-device
+storage**, and is never uploaded or transmitted. It is deleted when you remove
+it, delete the log, or uninstall the app.
+
+Receipts can show personal details — your name, part of a card number, a shop's
+or fuel station's location. Anything visible in a photo you attach travels with
+it into exports and backups.
+
+### Photos in exports
+
+Motorcycle and log photos are included in a service history PDF and embedded in
+a data backup, because both are copies of your own records. Those files go only
+where you send them (see **Exports and Backups**).
 
 ### Saving share cards
 
@@ -172,6 +179,8 @@ route shared content, and there is no MACHINA server involved.
 The app may request these device permissions:
 
 - **Notifications** — to deliver local maintenance reminders.
+- **Camera** — only when you choose to take a photo for a service or fuel log.
+  The photo stays on your device.
 - **Photo Library** — only when you choose to add a motorcycle photo, so you
   can select an image. You may grant full or limited ("Selected Photos") access;
   either way the chosen photo stays on your device.
@@ -187,7 +196,7 @@ You may grant or revoke these permissions at any time in your device settings.
 ## Data We Do Not Collect
 
 We do not collect your name, email, contacts, location, advertising identifier,
-or usage analytics. Photos you add to a motorcycle stay on your device and are
+or usage analytics. Photos you add to a motorcycle or a log stay on your device and are
 never collected or transmitted (see **Photos** above). Files you export stay
 yours (see **Exports and Backups** above). The app assigns you no identifier of
 any kind.

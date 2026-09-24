@@ -1,6 +1,6 @@
 # Terms of Service for MACHINA: Know Your Ride
 
-**Last updated: August 31, 2026**
+**Last updated: September 24, 2026**
 
 MACHINA: Know Your Ride ("MACHINA", "the app", "we", "us") is a motorcycle
 maintenance tracking app published by **Kim Roland Berame**. By downloading or
@@ -34,11 +34,22 @@ Where that agreement and these terms conflict on a point it covers, it wins.
 ## Not professional advice
 
 **MACHINA does not inspect your motorcycle.** Everything the app shows —
-maintenance intervals, due and overdue reminders, the Health Report and its
-score, verdicts, confidence, severity and consequence text, cost estimates, fuel
-economy figures — is calculated from data **you entered**, using general
-assumptions. It is not a mechanical inspection, a diagnosis, or professional
+maintenance intervals and the bike profile and riding style that scale them, due
+and overdue reminders, the Health Report and its score, verdicts, confidence,
+severity and consequence text, pre-ride checks, cost estimates, fuel economy
+figures and their suggested causes — is calculated from data **you entered**,
+using general assumptions. It is not a mechanical inspection, a diagnosis, or professional
 advice, and it cannot detect a fault on your actual machine.
+
+**New bikes start from an assumption.** When you add a motorcycle, MACHINA
+assumes every part was last serviced on schedule at the odometer reading you
+entered, until you log a real service. If your motorcycle is used, or you are
+unsure of its history, its actual condition may be worse than the app shows —
+parts it lists as fine may already be overdue. Log what you know, and have an
+unknown-history motorcycle inspected.
+
+A pre-ride check is a checklist you tick yourself. Completing it does not mean
+your motorcycle is safe to ride.
 
 Follow your manufacturer's service schedule and owner's manual, and have your
 motorcycle inspected and serviced by a qualified mechanic. Never rely on the app
@@ -67,7 +78,8 @@ Restoring a backup **replaces** the data currently in the app. Rows the app
 cannot read are skipped. Restore deliberately, and only from a file you made.
 
 The backup file is plain JSON — **not encrypted, not password-protected** — and
-contains your full garage, including your motorcycle photos. Anyone who gets the
+contains your full garage, including your motorcycle photos and any photos
+attached to your logs, such as receipts. Anyone who gets the
 file can read it. Store and share it accordingly.
 
 ## Exported records are for reference only
@@ -79,6 +91,8 @@ inspection certificate, or proof of roadworthiness. It must not be used as the
 sole basis for a sale, valuation, warranty claim, or insurance claim. Entries may
 be incomplete or inaccurate; accuracy is your responsibility. Verify against
 original receipts and a physical inspection before relying on any figure in it.
+Photos you attached to your logs are included in the PDF; a photo of a receipt is
+not proof that the work was done.
 
 If you give an exported file to someone else — a buyer, an insurer, a workshop —
 that is your decision and your responsibility.
@@ -101,9 +115,6 @@ following will apply:
   subscription settings.
 - **Refunds are handled by Apple**, under Apple's refund policy. We cannot issue
   or reverse an App Store charge.
-- Entitlement is checked through RevenueCat and cached on your device so the app
-  works offline. If you reinstall the app or change devices, use Restore
-  Purchases with the same Apple ID.
 - Paid features may be added, changed, or retired as the app evolves. We will not
   remove a feature you have already paid for without offering a reasonable
   alternative.
@@ -115,8 +126,7 @@ access at no cost.
 ## Acceptable use
 
 Use MACHINA lawfully. Do not attempt to break, probe, or abuse the app or the
-services it relies on, do not tamper with purchase or entitlement checks, and do
-not use the app to store or distribute unlawful content.
+services it relies on, and do not use the app to store or distribute unlawful content.
 
 ## Updates and availability
 
@@ -127,7 +137,7 @@ version, and we may stop publishing it.
 
 ## Third-party services
 
-MACHINA relies on services we do not control — Apple, Expo, and RevenueCat — as
+MACHINA relies on services we do not control — Apple and Expo — as
 described in the Privacy Policy. Their terms and privacy policies govern their
 own handling of data, and we are not responsible for them. Where you send an
 exported file, the receiving app or service's terms govern it.
